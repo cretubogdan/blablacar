@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            BlaBlaCar
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <ul class="main-nav">
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="show.html"> SHOW </a></li>
+                    <li><a href="reserve.html"> RESERVE </a></li>
+                    <li class="active"><a href="finish.html"> FINISH </a></li>
+                </ul>
+            </div>
+            <div class="collect-data-2">
+                <h2>Finish a ride</h2>
+                <div class="textbox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name" id="name" value="">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-plane-departure"></i>
+                    <input type="text" placeholder="Source" id="source" value="">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-plane-arrival"></i>
+                    <input type="text" placeholder="Destination" id="destination" value="">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-clock"></i>
+                    <input type="text" placeholder="Start" id="start" value="">
+                </div>
+                <input class="findbtn" type="button" id="btn" value="Finish">
+            </div>
+        </header>
+    </body>
+    <script src="script-finish.js"></script>
+</html>
